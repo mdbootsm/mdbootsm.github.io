@@ -1,0 +1,302 @@
+/*FONTS*/
+
+/* barlow-100 - latin-ext_latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/barlow-v12-latin-ext_latin-100.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v12-latin-ext_latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v12-latin-ext_latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-100.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v12-latin-ext_latin-100.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-100italic - latin-ext_latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 100;
+  src: url('../fonts/barlow-v12-latin-ext_latin-100italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v12-latin-ext_latin-100italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v12-latin-ext_latin-100italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-100italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-100italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v12-latin-ext_latin-100italic.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+
+/* barlow-200 - latin-ext_latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/barlow-v12-latin-ext_latin-200.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v12-latin-ext_latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v12-latin-ext_latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-200.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v12-latin-ext_latin-200.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-200italic - latin-ext_latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 200;
+  src: url('../fonts/barlow-v12-latin-ext_latin-200italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v12-latin-ext_latin-200italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v12-latin-ext_latin-200italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-200italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-200italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v12-latin-ext_latin-200italic.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-300 - latin-ext_latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/barlow-v12-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v12-latin-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v12-latin-ext_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v12-latin-ext_latin-300.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-300italic - latin-ext_latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 300;
+  src: url('../fonts/barlow-v12-latin-ext_latin-300italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v12-latin-ext_latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v12-latin-ext_latin-300italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-300italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v12-latin-ext_latin-300italic.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/barlow-v12-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v12-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v12-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v12-latin-ext_latin-regular.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+/* barlow-italic - latin-ext_latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/barlow-v12-latin-ext_latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/barlow-v12-latin-ext_latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/barlow-v12-latin-ext_latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/barlow-v12-latin-ext_latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/barlow-v12-latin-ext_latin-italic.svg#Barlow') format('svg'); /* Legacy iOS */
+}
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+/* Universal Styles */
+html {
+  font-size: 12px;
+  font-family: 'Barlow', 'Arial', sans-serif;
+  font-weight: 300;
+  color: hsla(0, 0%, 50%, 1);
+  overflow-y: scroll;
+  *background-color: hsla(0, 100%, 0%, 1);
+}
+
+/* Style the header with a [white] 50% transparent background and some padding */
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0.75);
+  padding: 11px 15px;
+  z-index: 10
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  text-align: center;
+  padding: 11px 55px 11px 11px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 19px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 19px;
+  font-weight: 400;
+  padding: 11px 0px 11px 11px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo2 {
+  font-size: 19px;
+  font-weight: 100;
+  color: hsla(0, 0%, 100%, 0);
+  padding: 11px 0px 11px 0px;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  padding: 11px 33px 11px 11px;
+  color: inherit;
+  background-color: inherit;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 19px;
+  font-family: inherit;
+}
+
+.dropdown .dropbtn:hover { 
+  text-decoration: none; 
+  color: hsla(120, 25%, 60%, 1); 
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: hsla(0, 0%, 100%, 0.75);
+  min-width: 240px;
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  padding: 4px 22px 9px 11px;
+  font-size: 15px;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a :hover { 
+  text-decoration: none; 
+  color: hsla(120, 25%, 60%, 1); 
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  position: fixed;
+  z-index: 999;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 100%, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  height: 30px;
+  background: hsla(0, 0%, 75%, 1);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(120, 25%, 60%, 1);
+}
+
+p {
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+  text-align: justify;
+}
+
+
+img {
+  display: block;
+  width: 100%;
+  position: relative;
+  top: 63px; /* height of header V padding + text V padding + line height */
+}
+
+.caption {
+  display: block;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+  padding: 24px;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0.75)
+}
+
+.contact {
+  display: block;
+  font-size: 17px;
+  font-weight: 200;
+  padding: 24px;
+  position: relative;
+  left: 63px;
+  top: 88px;
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0.75)
+}
+
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover { 
+  text-decoration: none; 
+  color: hsla(120, 25%, 60%, 1); 
+}

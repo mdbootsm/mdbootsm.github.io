@@ -1,0 +1,21 @@
+<?php
+
+echo '<div class="header">
+  <a href="./index.html" class="logo">sm-a</a>
+  <a href="./index.html" class="logo2">rch</a>
+  <div class="header-right">
+    <div class="dropdown">
+      <button class="dropbtn">projects          
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="./project1.html">project 1</a>
+        <a href="#">project 2</a>
+        <a href="#">project 3</a>
+      </div>
+    </div>
+    <a href="./contact.html">contact</a>
+  </div>
+</div>'
+
+?>
