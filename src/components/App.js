@@ -8,37 +8,41 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Root";
 
 // Here are the other pages
-import Project1 from "./Project1";
+import Project1 from "./projects/Project1";
+import Project2 from "./projects/Project2";
+import Project3 from "./projects/Project3";
+import Contact from "./Contact";
 
 
 // This is making a simple navigation object to know what component to render for each page. 
+// I would probably try to change the file names and components from 'Project 1' to the actual name.
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
   },
   {
-    path: "project-1",
+    path: "/project-1",
     element: <Project1 />,
   },
   {
-    path: "project-2",
-    element: <Root />,
+    path: "/project-2",
+    element: <Project2 />,
   },
   {
-    path: "project-3",
-    element: <Root />,
+    path: "/project-3",
+    element: <Project3 />,
   },
   {
-    path: "contact",
-    element: <Root />,
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
-// Then we simple render the site with this nagivation object. It will be more easy to see in other components, but this is the pattern of React - you use 'return' and then something that looks mostly like HTML. RouteProvider is an HTML element, just like a <div> is.
+// Then we simply render the site with this nagivation object. It will be more easy to see in other components, but this is the pattern of React - you use 'return' and then something that looks mostly like HTML. RouteProvider is an HTML element, just like a <div> is. It all does render as a standard html element - <div>, <p>, <span>, etc.
 const App = () => {
   return <RouterProvider router={router} />;
 };
 
-// We always need to export our components if other components need to import them - in this case, the index.js file did.
+// We always need to export our components if other components need to import them - in this case, the index.js file did. Default means this is the main export from this file, otherwise you'd need to specify the object in curly braces.
 export default App;
