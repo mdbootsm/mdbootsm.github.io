@@ -166,7 +166,7 @@ html {
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
   float: left;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* Style the dropdown button to fit inside the topnav */
@@ -187,7 +187,7 @@ html {
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
+  /* display: none; */
   position: absolute;
   background-color: hsla(0, 0%, 100%, 0.75);
   min-width: 240px;

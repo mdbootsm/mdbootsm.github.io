@@ -1,0 +1,44 @@
+/* Sticky is a bit better to use for a header than fixed, because it doesn't take it out of flow - if you use fixed, the rest of the page thinks it has 0px height, and everyting else renders at the top. I also use Flex for positioning everything instead of floats. */
+
+.header {
+  position: sticky;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: lowercase;
+  font-family: Barlow;
+  z-index: 10;
+  line-height: 1.5;
+}
+
+.header-right {
+  display: flex;
+
+  .sub-menu-wrapper {
+    position: relative;
+    width: 100px;
+
+    .sub-menu-button {
+      padding: 0 20px 10px;
+    }
+
+    .sub-menu {
+      background-color: rgba(255, 255, 255, 0.75);
+      position: absolute;
+      list-style: none;
+      padding: 0 20px;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      .menu-item {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+a:hover {
+  color: rgba(128, 179, 128, 1);
+}

@@ -1,0 +1,28 @@
+@import './variables';
+
+/* Nothing too fancy here, setting default font, size, colour, hiding the h1 tags, and making sure links do not have their default style */
+
+body {
+  margin: 0;
+  font-family: Barlow, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(128, 128, 128, 1);
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: $maxWidth;
+  margin: auto;
+}
+
+h1 {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 1);
+  display: block;
+}

@@ -1,0 +1,21 @@
+@import './variables';
+
+.email {
+  position: relative;
+  left: $mapLeft;
+  top: $mapTop - 20px;
+}
+
+.phone {
+  position: relative;
+  top: $mapTop;
+  left: $mapLeft;
+}
+
+.map {
+  border: 0;
+  filter: grayscale(100%);
+  position: relative;
+  top: $mapTop + 20px;
+  left: $mapLeft;
+}
