@@ -13,12 +13,17 @@
   line-height: 1.5;
 }
 
+.header-left {
+  font-weight: 400;
+}
+
 .header-right {
   display: flex;
+  font-size: 17px;
 
   .sub-menu-wrapper {
     position: relative;
-    width: 100px;
+    width: 120px;
 
     .sub-menu-button {
       padding: 0 20px 10px;

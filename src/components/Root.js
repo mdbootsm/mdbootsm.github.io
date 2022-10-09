@@ -11,7 +11,7 @@ import Header from "./Header";
 // }
 
 // I am using hidden h1 tags for SEO and for screen readers. Change it to whatever makes sense, but I'd recommend keeping them
-const siteName = "Michael Bootsma's Portfolio";
+const siteName = "sm-a's portfolio site";
 
 const Root = () => {
   return (

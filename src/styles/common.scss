@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Barlow, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 300;
   color: rgba(128, 128, 128, 1);
   overflow-y: scroll;
@@ -13,8 +13,8 @@ body {
 }
 
 #root {
-  max-width: $maxWidth;
   margin: auto;
+  min-width: 320px;
 }
 
 h1 {

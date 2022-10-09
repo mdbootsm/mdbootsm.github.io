@@ -1,15 +1,18 @@
 @import "./variables";
 
+.image-section {
+  margin-bottom: 15px;
+}
+
 .image-wrapper {
   position: relative;
   width: 100%;
-  height: 100%;
-  margin-bottom: 15px;
+  height: auto;
 
   // There really needs to be a max width for the images, or else they look bad on huge screens
   .image {
     width: 100vw;
-    max-width: $maxWidth;
+    min-width: 320px;
   }
 
   .description-wrapper {
@@ -22,7 +25,11 @@
     .description {
       margin: 0;
       padding: 20px;
-      font-size: 14px;
+      font-size: 17px;
+    }
+
+    @media (max-width: 480px) {
+      display: none;
     }
   }
 
@@ -35,8 +42,23 @@
 
     .caption {
       padding: 8px 15px;
-      font-size: 14px;
+      font-size: 17px;
       font-style: italic;
     }
   }
 }
+
+.description-wrapper-small {
+  display: none;
+
+  @media (max-width: 480px) {
+    display: block;
+    padding: 8px 15px;
+
+    .description {
+      font-size: 17px;
+    }
+  }
+}
+
+
