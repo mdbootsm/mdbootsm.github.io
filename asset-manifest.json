@@ -1,10 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5268bf72.css",
-    "main.js": "/static/js/main.d4681817.js",
-    "static/media/smarch.gif": "/static/media/smarch.16434e86f3f7a0ffb965.gif",
-    "static/media/moon.jpg": "/static/media/moon.0f6a57fd2436abb0e8d6.jpg",
-    "static/media/it-s_all_good_man.png": "/static/media/it-s_all_good_man.c05d181309b40dbae282.png",
+    "main.css": "/static/css/main.6ce83272.css",
+    "main.js": "/static/js/main.a94f2e77.js",
     "static/media/barlow-latin-400italic.woff": "/static/media/barlow-latin-400italic.847b357d8e8611feafbe.woff",
     "static/media/barlow-latin-800italic.woff": "/static/media/barlow-latin-800italic.6a8a913f7bfb6e158f85.woff",
     "static/media/barlow-latin-700italic.woff": "/static/media/barlow-latin-700italic.88313da7363a619919e3.woff",
@@ -42,11 +39,11 @@
     "static/media/barlow-latin-200.woff2": "/static/media/barlow-latin-200.f609a7851089bc998b2a.woff2",
     "static/media/barlow-latin-100.woff2": "/static/media/barlow-latin-100.e983abb5113f51e4db69.woff2",
     "index.html": "/index.html",
-    "main.5268bf72.css.map": "/static/css/main.5268bf72.css.map",
-    "main.d4681817.js.map": "/static/js/main.d4681817.js.map"
+    "main.6ce83272.css.map": "/static/css/main.6ce83272.css.map",
+    "main.a94f2e77.js.map": "/static/js/main.a94f2e77.js.map"
   },
   "entrypoints": [
-    "static/css/main.5268bf72.css",
-    "static/js/main.d4681817.js"
+    "static/css/main.6ce83272.css",
+    "static/js/main.a94f2e77.js"
   ]
 }
